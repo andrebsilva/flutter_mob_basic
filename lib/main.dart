@@ -10,13 +10,10 @@ class FlutterMobileBasic extends StatelessWidget {
 
     return MaterialApp(
 
-      /// Drop Debug Banner
-      /// @param: false
+      /// 'false' to Drop Debug Banner
       debugShowCheckedModeBanner: false,
 
-      theme: ThemeData(
-        primaryColor: Colors.white,
-      ),
+      theme: ThemeData( primaryColor: Colors.white ),
 
       home: HelloWorld(),
 
