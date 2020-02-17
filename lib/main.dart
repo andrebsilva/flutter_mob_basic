@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mob_basic/screen/HelloWorldPlus.dart';
-import 'screen/HelloWorld.dart';
+
+/// Relative Path
+// import 'screen/hello_world.dart';
+
+/// Global Path
+// import 'package:flutter_mob_basic/screen/hello_world.dart';
+
+import 'package:flutter_mob_basic/screen/hello_world_plus.dart';
 
 void main() => runApp(FlutterMobileBasic());
 
@@ -16,6 +22,7 @@ class FlutterMobileBasic extends StatelessWidget {
 
       theme: ThemeData( primaryColor: Colors.white ),
 
+      /// Require: import 'screen/HelloWorld.dart';
       // home: HelloWorld(),
 
       home: HelloWorldPlus(),

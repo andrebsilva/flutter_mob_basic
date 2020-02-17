@@ -38,13 +38,18 @@ class HelloWorldPlus extends StatelessWidget {
 
 
   /// Getting the text with a variable
-  var text = "Hello World!!";
+  _getText() {
+
+    return "Hello World!";
+
+  }
 
   _helloWorldPlusText() {
 
     return Text(
 
-      "$text",
+      /// Printing the text
+      "${_getText()}",
 
       style: TextStyle(
 
