@@ -8,6 +8,9 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_mob_basic/screen/hello_world_plus.dart';
 
+/// Change Android App Label:
+/// android>app>src>main>AndroidManifest.xml --- application>android:label
+
 void main() => runApp(FlutterMobileBasic());
 
 class FlutterMobileBasic extends StatelessWidget {
