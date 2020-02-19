@@ -6,7 +6,8 @@ import 'package:flutter/material.dart';
 /// Global Path
 // import 'package:flutter_mob_basic/screen/hello_world.dart';
 
-import 'package:flutter_mob_basic/screen/hello_world_plus.dart';
+// import 'screen/hello_world_plus.dart';
+import 'screen/image_app.dart';
 
 /// Change Android App Label:
 /// android>app>src>main>AndroidManifest.xml --- application>android:label
@@ -25,10 +26,14 @@ class FlutterMobileBasic extends StatelessWidget {
 
       theme: ThemeData( primaryColor: Colors.white ),
 
-      /// Require: import 'screen/HelloWorld.dart';
+      /// Require: import 'screen/hello_world.dart'
       // home: HelloWorld(),
 
-      home: HelloWorldPlus(),
+      /// Require: import 'screen/hello_world_plus.dart'
+      // home: HelloWorldPlus(),
+
+      /// Require: import 'screen/image_app.dart'
+      home: ImageApp(),
 
     );
 
